@@ -22,6 +22,8 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          deep: "hsl(var(--primary-deep))",
+          light: "hsl(var(--primary-light))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -84,6 +86,19 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "float": "float 6s ease-in-out infinite",
+        "pulse-gentle": "pulse-gentle 3s ease-in-out infinite",
+        "wave": "wave 4s ease-in-out infinite",
+      },
+      backgroundImage: {
+        "gradient-ocean": "var(--gradient-ocean)",
+        "gradient-depth": "var(--gradient-depth)",
+        "gradient-surface": "var(--gradient-surface)",
+      },
+      boxShadow: {
+        "ocean": "var(--shadow-ocean)",
+        "depth": "var(--shadow-depth)",
+        "data": "var(--shadow-data)",
       },
     },
   },
